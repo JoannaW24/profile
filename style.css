@@ -1,0 +1,86 @@
+body {
+  font-family: "Lora", serif;
+  background: #d0c9b2;
+  color: #666149;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #7b6544;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #5e4c1c;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+
+.card {
+  background-color: #eceddb;
+  padding: 30px;
+  width: 500px;
+  margin: 20px auto;
+  border-radius: 50px;
+  border: 10px solid #b5af9e;
+}
+
+.card-white {
+  background: rgb(67, 61, 61); /* White background */
+  padding: 30px; /* Internal space */
+  border-radius: 4px; /* Small radius */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Light shadow */
+  text-align: center;
+  margin: 20px 0;
+}
+
+.image-circle {
+  width: 200px;
+  height: 250px;
+  border-radius: 95px;
+}
+
+li {
+  display: inline;
+}
+
+a:hover {
+  color:#130c03;
+}
+
+.link-discovery {
+  color:#7b6544;
+  background-color: #636156;
+  color: #d3d0bc;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.link-social {
+  color:#7b6544
+}
+
+.link-discovery:hover {
+  color:#aca78a
+}
+
+@media (max-width: 540px) {
+  .card {
+    margin: 0;
+  }
+}
